@@ -26,7 +26,7 @@ public class TestServer {
                     if (str.equals("END"))
                         break;
                     System.out.println("Echoing: " + str);
-                    out.println(str);
+                    out.println("from server: "+str);
                 }
                 // Всегда закрываем два сокета...
             }
